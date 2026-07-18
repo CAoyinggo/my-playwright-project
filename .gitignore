@@ -1,6 +1,16 @@
+# ── Python ──
 .venv/
 __pycache__/
+*.pyc
 .pytest_cache/
+
+# ── Playwright ──
 playwright-report/
 test-results/
-.env
+
+# ── 项目 (敏感/临时文件不提交) ──
+config/.env
+config/auth.json
+screenshots/
+node_modules/
+.DS_Store
